@@ -1,0 +1,10 @@
+chromadb==0.4.24
+datasets==4.8.3
+numpy==1.26.4
+openai==1.109.1
+paddleocr==3.4.0
+paddlepaddle==3.2.0
+pandas==2.2.2
+pillow==11.2.1
+ragas==0.4.3
+tiktoken==0.7.0

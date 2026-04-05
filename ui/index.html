@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helio Scientific Retrieval</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="background-orb orb-a"></div>
+    <div class="background-orb orb-b"></div>
+    <div class="shell">
+      <aside class="sidebar panel">
+        <div class="brand">
+          <div class="brand-mark">H</div>
+          <div>
+            <p class="eyebrow">Scientific RAG</p>
+            <h1>Helio Retrieval</h1>
+          </div>
+        </div>
+
+        <p class="sidebar-copy">
+          Search OCR-processed scientific papers, retrieve the strongest passages with hybrid ranking,
+          rerank them with an LLM, and answer with chunk-level provenance for reviewable research workflows.
+        </p>
+
+        <div class="settings-block">
+          <h2>Retrieval Controls</h2>
+          <label>
+            Top K
+            <input id="topK" type="number" min="1" max="10" value="4" />
+          </label>
+          <label>
+            Vector Candidates
+            <input id="vectorCandidates" type="number" min="1" max="30" value="12" />
+          </label>
+          <label>
+            Keyword Candidates
+            <input id="keywordCandidates" type="number" min="1" max="30" value="12" />
+          </label>
+          <label>
+            Rerank Window
+            <input id="rerankTopN" type="number" min="1" max="20" value="8" />
+          </label>
+        </div>
+
+        <div class="example-block">
+          <h2>Research Prompts</h2>
+          <button class="prompt-chip" data-prompt="How do the compared eGFR equations perform in critically ill patients with AKI?">
+            eGFR performance
+          </button>
+          <button class="prompt-chip" data-prompt="What limitations are reported for tracking rapid changes in renal function?">
+            Renal monitoring limits
+          </button>
+          <button class="prompt-chip" data-prompt="Which cytokine combinations are discussed in the transgenic study and why are they important?">
+            Cytokine combinations
+          </button>
+        </div>
+
+        <div class="status-card">
+          <span class="status-dot"></span>
+          <div>
+            <p class="eyebrow">Pipeline</p>
+            <strong id="healthText">Ready for local requests</strong>
+          </div>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <section class="panel hero">
+          <p class="eyebrow">End-to-End Scientific Retrieval</p>
+          <div class="hero-row">
+            <div>
+              <h2>Scientific document retrieval with traceable evidence</h2>
+              <p>
+                Ingest scanned papers, reconstruct text with OCR, index hierarchical chunks, run dense plus
+                sparse retrieval, rerank evidence, and return grounded answers suitable for literature review.
+              </p>
+            </div>
+            <div class="metric-grid">
+              <div class="metric-card">
+                <span>Corpus</span>
+                <strong>OCR + Chunks</strong>
+              </div>
+              <div class="metric-card">
+                <span>Retrieval</span>
+                <strong>Hybrid Search</strong>
+              </div>
+              <div class="metric-card">
+                <span>Output</span>
+                <strong>Cited Answers</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="chat-and-sources">
+          <section class="panel chat-panel">
+            <div class="chat-header">
+              <div>
+                <p class="eyebrow">Scientific QA</p>
+                <h2>Literature Assistant</h2>
+              </div>
+              <button id="clearButton" class="ghost-button" type="button">Clear</button>
+            </div>
+
+            <div id="messages" class="messages" aria-live="polite"></div>
+
+            <form id="chatForm" class="composer">
+              <label class="composer-label" for="queryInput">Research question</label>
+              <textarea
+                id="queryInput"
+                rows="3"
+                placeholder="Ask about study design, evaluation metrics, reported limitations, biomarker findings, or comparative results..."
+              ></textarea>
+              <div class="composer-actions">
+                <p class="input-hint">Shift + Enter for a new line. Answers are grounded in retrieved scientific passages.</p>
+                <button id="sendButton" class="send-button" type="submit">Run Retrieval</button>
+              </div>
+            </form>
+          </section>
+
+          <aside class="panel sources-panel">
+            <div class="sources-header">
+              <p class="eyebrow">Evidence Panel</p>
+              <h2>Retrieved Passages</h2>
+            </div>
+            <div id="sources" class="sources-list">
+              <div class="empty-state">
+                Supporting passages will appear here with section metadata, hybrid scores, and rerank scores after the first retrieval.
+              </div>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <template id="messageTemplate">
+      <article class="message reveal">
+        <div class="avatar"></div>
+        <div class="bubble"></div>
+      </article>
+    </template>
+
+    <template id="sourceTemplate">
+      <article class="source-card reveal">
+        <div class="source-meta"></div>
+        <div class="source-text"></div>
+      </article>
+    </template>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

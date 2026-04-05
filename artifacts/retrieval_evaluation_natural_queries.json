@@ -1,0 +1,780 @@
+{
+  "labels_path": "docs\\retrieval_labels_natural_queries.jsonl",
+  "collection_name": "document_chunks_text",
+  "queries_evaluated": 24,
+  "top_k": 3,
+  "hit_at_1": 0.7917,
+  "hit_at_3": 0.9583,
+  "mrr": 0.8611,
+  "average_query_latency_ms": 3.201,
+  "per_query": [
+    {
+      "query": "Which chunk contains a table summarizing perforation-related patient outcomes?",
+      "relevant_chunk_ids": [
+        "PMC3576793_00004-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC3576793_00004-chunk-001",
+          "distance": 0.4046,
+          "is_relevant": true,
+          "document_preview": "TABLE: A SUMMARY OF THE PERFORATED OR SELFACATIONS IN ORIGIENTLY INTAIENTS with KILL, ABICE ORGAN RESULTS/DUALS\nUTHR AND MAKE UNDE OUTPAPS ARE RECEIPT FOR A 2 AND BE ARE WITHIN DATE ARE ADUPY PERINED "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC4954804_00001-chunk-001",
+          "distance": 0.710766,
+          "is_relevant": false,
+          "document_preview": "IN 2001, Yamada et al, USING COMPUTED (NNORUPAL), (2) MEASURE AVEABLE BEEN INCLUSES CHUGE AND PROT\nCLATED WITH NON MARIBULA PNINE ANDES AND CASH III. HAVE SELECTED PURCHASED BHDUNG PRODUCTS\nRECENTLY, "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5491943_00004-chunk-001",
+          "distance": 0.737534,
+          "is_relevant": false,
+          "document_preview": "***\nEXCHANGEABLE APPROPRIATIONS FOR TRANSACERS, RETAIMS AND BILLED IN ORIGINALARY ORIGINALLY EXPER\nHEALTH POLIPLIES AREA SEPAR PAPULATIVES & TRANSRES, RETURNS AND BILLED BHD BY RECERARANTARY OFTENED\nD"
+        }
+      ],
+      "notes": "Naturalized version of the first table query."
+    },
+    {
+      "query": "Which chunk discusses the study limitations and how many values fell within 30 percent?",
+      "relevant_chunk_ids": [
+        "PMC3576793_00004-chunk-002"
+      ],
+      "matched": true,
+      "reciprocal_rank": 0.3333,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC5678782_00005-chunk-001",
+          "distance": 0.703768,
+          "is_relevant": false,
+          "document_preview": "WHNNNNNNNNNNN\nMARIPRATESITY -22pc/1M -X -Bf -B\nCHANGE : 4 - 0 -6-05-01-\nTABLE COPING S9FATE INTO ACCEPT, DECIOS MAY ABOVE, JEBLES, IT WOULD BE INTERESTING TO RECEIPTED STUDY WITH\nADTUITIES, AVOLDING T"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC5491943_00004-chunk-001",
+          "distance": 0.709954,
+          "is_relevant": false,
+          "document_preview": "***\nEXCHANGEABLE APPROPRIATIONS FOR TRANSACERS, RETAIMS AND BILLED IN ORIGINALARY ORIGINALLY EXPER\nHEALTH POLIPLIES AREA SEPAR PAPULATIVES & TRANSRES, RETURNS AND BILLED BHD BY RECERARANTARY OFTENED\nD"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC3576793_00004-chunk-002",
+          "distance": 0.71224,
+          "is_relevant": true,
+          "document_preview": "SALES WILL IS REWARDS MADE USEFUL COMPRISOR ABOVE IN OFF ASUALS WERE NOT RETUREDED ON THE SOLD AND THE CASHAGE\nEQUATIONS\nNO. 0000-NOLDS,SALE, INCREASE (25.24), 2.99%,%,6. Limitations\nSUGGESTED\nPREVIOU"
+        }
+      ],
+      "notes": "Targets the lower section of the first document."
+    },
+    {
+      "query": "Which chunk is about prostate-related analysis and extracellular proteoglycan?",
+      "relevant_chunk_ids": [
+        "PMC3654277_00006-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC3654277_00006-chunk-001",
+          "distance": 0.497037,
+          "is_relevant": true,
+          "document_preview": "PLEASE\n***\nNOHISTOCHEN\nTHE APPROF\nPETIUM APPLICATIONAL ANALYST, AND THE \"INDERS\" ARE VERY A A SALLAR DIED FOR SHOWN FOR THE STATEMENT APPROV\nPLATIVE: ITS RECARANTARY APPROVED FORLY WITH TEABOADEDSOR S"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC5618295_00004-chunk-001",
+          "distance": 0.717696,
+          "is_relevant": false,
+          "document_preview": "---\n::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n-\nANTI-CANCER\nMANOCINAL ANTIBODY (GREEN FRAME) RETAINS AMTIGEN SPECIFICT\nBENERATION (MONOLONALAN ANTIBODY) AND 2HD GENERATION\nBTHER"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC3976938_00002-chunk-001",
+          "distance": 0.726424,
+          "is_relevant": false,
+          "document_preview": "ONLY SPRING POLIENS\nAMMM\nSUBJECTED ALL INDUSTRY TO MAKE ALLIGINAL, THERRY, SOLD PER\n----****\n----\nTEL: 0000000000000000000000\nEOSINOPHIL\nTHANK YOU FOR RECEIPT FOR AN TRANSACTION WITHIN WITHIN AND TRAN"
+        }
+      ],
+      "notes": "Uses cleaner domain phrasing."
+    },
+    {
+      "query": "Which chunk mentions physiology and a meta-analysis of results?",
+      "relevant_chunk_ids": [
+        "PMC3777717_00006-chunk-001"
+      ],
+      "matched": false,
+      "reciprocal_rank": 0.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC3576793_00004-chunk-001",
+          "distance": 0.626568,
+          "is_relevant": false,
+          "document_preview": "TABLE: A SUMMARY OF THE PERFORATED OR SELFACATIONS IN ORIGIENTLY INTAIENTS with KILL, ABICE ORGAN RESULTS/DUALS\nUTHR AND MAKE UNDE OUTPAPS ARE RECEIPT FOR A 2 AND BE ARE WITHIN DATE ARE ADUPY PERINED "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC3576793_00004-chunk-002",
+          "distance": 0.73485,
+          "is_relevant": false,
+          "document_preview": "SALES WILL IS REWARDS MADE USEFUL COMPRISOR ABOVE IN OFF ASUALS WERE NOT RETUREDED ON THE SOLD AND THE CASHAGE\nEQUATIONS\nNO. 0000-NOLDS,SALE, INCREASE (25.24), 2.99%,%,6. Limitations\nSUGGESTED\nPREVIOU"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC3863500_00003-chunk-002",
+          "distance": 0.736813,
+          "is_relevant": false,
+          "document_preview": "PLEASE RETURNS BASED ON THE SCIPALS (7), AND APPLICABLES with AUTHOR IS AFFARE OF SUBPAREDIC THERMED FOR AN CATE FORN\nMENTSELVES; IN THE SETTING OF A GLMONHUMERAL\nNO ADJUST, ABBART, EXCELS, INCL, ORDI"
+        }
+      ],
+      "notes": "Less tied to OCR noise."
+    },
+    {
+      "query": "Which chunk is the short block headed by terms like taxedage and subrequirations?",
+      "relevant_chunk_ids": [
+        "PMC3863500_00003-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC3863500_00003-chunk-001",
+          "distance": 0.501372,
+          "is_relevant": true,
+          "document_preview": "TAXEDAGE IN\nSUBREQUIRATIONS\n:\n**************************************************************************************************************************************************************************"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC5491943_00004-chunk-001",
+          "distance": 0.650266,
+          "is_relevant": false,
+          "document_preview": "***\nEXCHANGEABLE APPROPRIATIONS FOR TRANSACERS, RETAIMS AND BILLED IN ORIGINALARY ORIGINALLY EXPER\nHEALTH POLIPLIES AREA SEPAR PAPULATIVES & TRANSRES, RETURNS AND BILLED BHD BY RECERARANTARY OFTENED\nD"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC3863500_00003-chunk-002",
+          "distance": 0.656585,
+          "is_relevant": false,
+          "document_preview": "PLEASE RETURNS BASED ON THE SCIPALS (7), AND APPLICABLES with AUTHOR IS AFFARE OF SUBPAREDIC THERMED FOR AN CATE FORN\nMENTSELVES; IN THE SETTING OF A GLMONHUMERAL\nNO ADJUST, ABBART, EXCELS, INCL, ORDI"
+        }
+      ],
+      "notes": "Still needs OCR-specific anchors because the text is very short."
+    },
+    {
+      "query": "Which chunk discusses a glenohumeral setting and changes in position?",
+      "relevant_chunk_ids": [
+        "PMC3863500_00003-chunk-002"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC3863500_00003-chunk-002",
+          "distance": 0.597597,
+          "is_relevant": true,
+          "document_preview": "PLEASE RETURNS BASED ON THE SCIPALS (7), AND APPLICABLES with AUTHOR IS AFFARE OF SUBPAREDIC THERMED FOR AN CATE FORN\nMENTSELVES; IN THE SETTING OF A GLMONHUMERAL\nNO ADJUST, ABBART, EXCELS, INCL, ORDI"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC4954804_00001-chunk-001",
+          "distance": 0.700994,
+          "is_relevant": false,
+          "document_preview": "IN 2001, Yamada et al, USING COMPUTED (NNORUPAL), (2) MEASURE AVEABLE BEEN INCLUSES CHUGE AND PROT\nCLATED WITH NON MARIBULA PNINE ANDES AND CASH III. HAVE SELECTED PURCHASED BHDUNG PRODUCTS\nRECENTLY, "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5491943_00004-chunk-001",
+          "distance": 0.76207,
+          "is_relevant": false,
+          "document_preview": "***\nEXCHANGEABLE APPROPRIATIONS FOR TRANSACERS, RETAIMS AND BILLED IN ORIGINALARY ORIGINALLY EXPER\nHEALTH POLIPLIES AREA SEPAR PAPULATIVES & TRANSRES, RETURNS AND BILLED BHD BY RECERARANTARY OFTENED\nD"
+        }
+      ],
+      "notes": "Corrects the OCR wording into a more natural query."
+    },
+    {
+      "query": "Which chunk mentions eosinophils and significant indicators?",
+      "relevant_chunk_ids": [
+        "PMC3976938_00002-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC3976938_00002-chunk-001",
+          "distance": 0.634608,
+          "is_relevant": true,
+          "document_preview": "ONLY SPRING POLIENS\nAMMM\nSUBJECTED ALL INDUSTRY TO MAKE ALLIGINAL, THERRY, SOLD PER\n----****\n----\nTEL: 0000000000000000000000\nEOSINOPHIL\nTHANK YOU FOR RECEIPT FOR AN TRANSACTION WITHIN WITHIN AND TRAN"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC5447509_00002-chunk-001",
+          "distance": 0.701068,
+          "is_relevant": false,
+          "document_preview": "HO\nREUNDTAIMSMITTER DEFICIENCY AND DATERICATING GENERAL CONDITION. S\nE DISPLAYED MANIFESTATIONS DURING MONITORING,\nPLAMS IN DRATES THE SPEABLE BILLA LAB A PARTICIZE PERIUM IN THE PERFORNIA 6 AND BY TO"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC3576793_00004-chunk-001",
+          "distance": 0.713266,
+          "is_relevant": false,
+          "document_preview": "TABLE: A SUMMARY OF THE PERFORATED OR SELFACATIONS IN ORIGIENTLY INTAIENTS with KILL, ABICE ORGAN RESULTS/DUALS\nUTHR AND MAKE UNDE OUTPAPS ARE RECEIPT FOR A 2 AND BE ARE WITHIN DATE ARE ADUPY PERINED "
+        }
+      ],
+      "notes": "Naturalized scientific phrasing."
+    },
+    {
+      "query": "Which chunk discusses child welfare policy, the rights of the child, and Every Child Matters?",
+      "relevant_chunk_ids": [
+        "PMC4027932_00001-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC4027932_00001-chunk-001",
+          "distance": 0.444558,
+          "is_relevant": true,
+          "document_preview": "WITH THE WELFARE OF CHILDREN A STATUTORY PRIORITY, ALONG\nVENTION ON THE RIGHTS OF THE CHILD [5] THAT WAS ALSO\nSIGNED AND MADE LEGAL 1989. DESPILE SUCH LEGISLATION.\nTHE LAMING INQUIRY [6] MADE 108 RECO"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC3863500_00003-chunk-001",
+          "distance": 0.725832,
+          "is_relevant": false,
+          "document_preview": "TAXEDAGE IN\nSUBREQUIRATIONS\n:\n**************************************************************************************************************************************************************************"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5624106_00000-chunk-001",
+          "distance": 0.748983,
+          "is_relevant": false,
+          "document_preview": "POLICY PAPER AREA:\nHOW DO POLICY AND INSTITUTIONAL SETTINGS SHAPE\nPROFTUNITIES FOR COM\nNEW\nCOUNTURI\nTONI ASHTON', NICOLETE SHERIDAN, ALEXANDRA PECKHAM', A PAUL WILLAMS, TIM KENEALY'\nAND WAITER WHODDIN"
+        }
+      ],
+      "notes": "Natural policy-oriented query."
+    },
+    {
+      "query": "Which chunk covers the Centre for British Teachers review and collaborative services?",
+      "relevant_chunk_ids": [
+        "PMC4027932_00001-chunk-002"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC4027932_00001-chunk-002",
+          "distance": 0.553119,
+          "is_relevant": true,
+          "document_preview": "PARALLELED\nCENTRE FOR BRITISH TEACHERS (CIFT) REVIEW OF INTERMA-\nBIONAL INCORATION FOUND THAT:\nMAJORITY OF COUNTRIES\nISBECTIONS (34 OF THE 54 IN THE SAMPLE) HAVE SHOWN\nCOLILABORATIVE\nTABLEDABLE, MAKES"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC4027932_00001-chunk-001",
+          "distance": 0.636608,
+          "is_relevant": false,
+          "document_preview": "WITH THE WELFARE OF CHILDREN A STATUTORY PRIORITY, ALONG\nVENTION ON THE RIGHTS OF THE CHILD [5] THAT WAS ALSO\nSIGNED AND MADE LEGAL 1989. DESPILE SUCH LEGISLATION.\nTHE LAMING INQUIRY [6] MADE 108 RECO"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC4972521_00010-chunk-001",
+          "distance": 0.766944,
+          "is_relevant": false,
+          "document_preview": "TOTAL\nREF\nA EQUIME\n***\nWHERE FOR THE LARABLE OPARANTS, EXPERIUM RUB,S, JOADEN, KORDEN, JOANN, ASBSAN, CASH, BHD, DHD, RDICE, SD,S, SHD,S,SRURANTR"
+        }
+      ],
+      "notes": "Targets the second chunk in the same document."
+    },
+    {
+      "query": "Which chunk talks about radio records, receipts, and follow-up orders?",
+      "relevant_chunk_ids": [
+        "PMC4527132_00004-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 0.5,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC5491943_00004-chunk-001",
+          "distance": 0.618852,
+          "is_relevant": false,
+          "document_preview": "***\nEXCHANGEABLE APPROPRIATIONS FOR TRANSACERS, RETAIMS AND BILLED IN ORIGINALARY ORIGINALLY EXPER\nHEALTH POLIPLIES AREA SEPAR PAPULATIVES & TRANSRES, RETURNS AND BILLED BHD BY RECERARANTARY OFTENED\nD"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC4527132_00004-chunk-001",
+          "distance": 0.661083,
+          "is_relevant": true,
+          "document_preview": "(SUR REGITURE AND PROHIBITED FROM) FROM AN OFFER :\nAND PURPO PURTER DATETES PER MUDESAR PORE COMPLEX\nSANMAN BLRIDGE OR RECADE OF RADIO SOLD RECEIPTS, INCLURNS AND FOLLOWED THE TRANSACTIONED BY THE NEX"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC4760359_00006-chunk-001",
+          "distance": 0.705848,
+          "is_relevant": false,
+          "document_preview": "O\nDESCRIPTIONS\n*************************************** *********************\nCHANGES INCOME ORDER FOR ANWARDRY BY APPROVALS, AND FOR AN OFFER AND FOR AN OFFER FOR AWAY.\n*******************************"
+        }
+      ],
+      "notes": "Cleaner version of the OCR-aligned query."
+    },
+    {
+      "query": "Which chunk contains a descriptions section about changes in income order?",
+      "relevant_chunk_ids": [
+        "PMC4760359_00006-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC4760359_00006-chunk-001",
+          "distance": 0.517966,
+          "is_relevant": true,
+          "document_preview": "O\nDESCRIPTIONS\n*************************************** *********************\nCHANGES INCOME ORDER FOR ANWARDRY BY APPROVALS, AND FOR AN OFFER AND FOR AN OFFER FOR AWAY.\n*******************************"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC3863500_00003-chunk-001",
+          "distance": 0.615652,
+          "is_relevant": false,
+          "document_preview": "TAXEDAGE IN\nSUBREQUIRATIONS\n:\n**************************************************************************************************************************************************************************"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5491943_00004-chunk-001",
+          "distance": 0.634055,
+          "is_relevant": false,
+          "document_preview": "***\nEXCHANGEABLE APPROPRIATIONS FOR TRANSACERS, RETAIMS AND BILLED IN ORIGINALARY ORIGINALLY EXPER\nHEALTH POLIPLIES AREA SEPAR PAPULATIVES & TRANSRES, RETURNS AND BILLED BHD BY RECERARANTARY OFTENED\nD"
+        }
+      ],
+      "notes": "Natural phrasing for a heading-like chunk."
+    },
+    {
+      "query": "Which chunk cites Yamada et al. and computed measurements?",
+      "relevant_chunk_ids": [
+        "PMC4954804_00001-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC4954804_00001-chunk-001",
+          "distance": 0.634099,
+          "is_relevant": true,
+          "document_preview": "IN 2001, Yamada et al, USING COMPUTED (NNORUPAL), (2) MEASURE AVEABLE BEEN INCLUSES CHUGE AND PROT\nCLATED WITH NON MARIBULA PNINE ANDES AND CASH III. HAVE SELECTED PURCHASED BHDUNG PRODUCTS\nRECENTLY, "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC3863500_00003-chunk-002",
+          "distance": 0.780639,
+          "is_relevant": false,
+          "document_preview": "PLEASE RETURNS BASED ON THE SCIPALS (7), AND APPLICABLES with AUTHOR IS AFFARE OF SUBPAREDIC THERMED FOR AN CATE FORN\nMENTSELVES; IN THE SETTING OF A GLMONHUMERAL\nNO ADJUST, ABBART, EXCELS, INCL, ORDI"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC4527132_00004-chunk-001",
+          "distance": 0.785936,
+          "is_relevant": false,
+          "document_preview": "(SUR REGITURE AND PROHIBITED FROM) FROM AN OFFER :\nAND PURPO PURTER DATETES PER MUDESAR PORE COMPLEX\nSANMAN BLRIDGE OR RECADE OF RADIO SOLD RECEIPTS, INCLURNS AND FOLLOWED THE TRANSACTIONED BY THE NEX"
+        }
+      ],
+      "notes": "Uses recognizable citation wording."
+    },
+    {
+      "query": "Which chunk is the short reference block listing several names such as Joaaden and Korden?",
+      "relevant_chunk_ids": [
+        "PMC4972521_00010-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC4972521_00010-chunk-001",
+          "distance": 0.672434,
+          "is_relevant": true,
+          "document_preview": "TOTAL\nREF\nA EQUIME\n***\nWHERE FOR THE LARABLE OPARANTS, EXPERIUM RUB,S, JOADEN, KORDEN, JOANN, ASBSAN, CASH, BHD, DHD, RDICE, SD,S, SHD,S,SRURANTR"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC4760359_00006-chunk-001",
+          "distance": 0.795338,
+          "is_relevant": false,
+          "document_preview": "O\nDESCRIPTIONS\n*************************************** *********************\nCHANGES INCOME ORDER FOR ANWARDRY BY APPROVALS, AND FOR AN OFFER AND FOR AN OFFER FOR AWAY.\n*******************************"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5432924_00001-chunk-001",
+          "distance": 0.807534,
+          "is_relevant": false,
+          "document_preview": "OF RESEARCED RNA BY THE LATGE SHIPPLIUM OF SEPDENS- BY COMPURING THE ENDE VEGANS OF THE STEPS-SPEC\nING RETURNS BY LABORN BY RNA, SEPARATED BY RNA- MARIDAS.\nSEQU IS MORE ATTRIBIBARD, ENADING, AND ACCUT"
+        }
+      ],
+      "notes": "Naturalized but still tied to OCR tokens."
+    },
+    {
+      "query": "Which chunk explains antioxidant defense systems like ascorbate, glutathione, and peroxiredoxins in plants?",
+      "relevant_chunk_ids": [
+        "PMC5302692_00002-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC5302692_00002-chunk-001",
+          "distance": 0.389051,
+          "is_relevant": true,
+          "document_preview": "DAMAGE,\nMECHANISMS FOR THE EFFICIENT SCAVENGING OF THESE TRANSIENT AUGMENTATE\nANZYMATIC ANTIOXIBANT SYSTEMS, SUCH AS ASCORBATE AND GLUTATIONE, AND THE GUPYMATI\nROS-CAVENING MEBARTSMS IN WHICH CARLSOC,"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC3576793_00004-chunk-001",
+          "distance": 0.688692,
+          "is_relevant": false,
+          "document_preview": "TABLE: A SUMMARY OF THE PERFORATED OR SELFACATIONS IN ORIGIENTLY INTAIENTS with KILL, ABICE ORGAN RESULTS/DUALS\nUTHR AND MAKE UNDE OUTPAPS ARE RECEIPT FOR A 2 AND BE ARE WITHIN DATE ARE ADUPY PERINED "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC3976938_00002-chunk-001",
+          "distance": 0.748734,
+          "is_relevant": false,
+          "document_preview": "ONLY SPRING POLIENS\nAMMM\nSUBJECTED ALL INDUSTRY TO MAKE ALLIGINAL, THERRY, SOLD PER\n----****\n----\nTEL: 0000000000000000000000\nEOSINOPHIL\nTHANK YOU FOR RECEIPT FOR AN TRANSACTION WITHIN WITHIN AND TRAN"
+        }
+      ],
+      "notes": "Semantically clean scientific query."
+    },
+    {
+      "query": "Which chunk discusses combinations of transgenic cytokines including GM-CSF and IL-4?",
+      "relevant_chunk_ids": [
+        "PMC5344221_00010-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC5344221_00010-chunk-001",
+          "distance": 0.317291,
+          "is_relevant": true,
+          "document_preview": "COMBIMATIONS WITH OTHER TRANSGENIC CYTOKIN\nCOLL DMER COMBILATIONS OF TRANSSENG CYTOKINS (HESIDES GM-CSF PLUS IL-4 OR GML-CSF PLUS\nREPROGRAWTING? AS DISCUSSED\nEADY-STATE AND INFLAMMATORY\nCEPTOR, GM-CSF"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC5618295_00004-chunk-001",
+          "distance": 0.653409,
+          "is_relevant": false,
+          "document_preview": "---\n::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n-\nANTI-CANCER\nMANOCINAL ANTIBODY (GREEN FRAME) RETAINS AMTIGEN SPECIFICT\nBENERATION (MONOLONALAN ANTIBODY) AND 2HD GENERATION\nBTHER"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC3654277_00006-chunk-001",
+          "distance": 0.785863,
+          "is_relevant": false,
+          "document_preview": "PLEASE\n***\nNOHISTOCHEN\nTHE APPROF\nPETIUM APPLICATIONAL ANALYST, AND THE \"INDERS\" ARE VERY A A SALLAR DIED FOR SHOWN FOR THE STATEMENT APPROV\nPLATIVE: ITS RECARANTARY APPROVED FORLY WITH TEABOADEDSOR S"
+        }
+      ],
+      "notes": "Cleaner biomedical query."
+    },
+    {
+      "query": "Which chunk discusses RNA step-specific analysis and RNA markers?",
+      "relevant_chunk_ids": [
+        "PMC5432924_00001-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC5432924_00001-chunk-001",
+          "distance": 0.488417,
+          "is_relevant": true,
+          "document_preview": "OF RESEARCED RNA BY THE LATGE SHIPPLIUM OF SEPDENS- BY COMPURING THE ENDE VEGANS OF THE STEPS-SPEC\nING RETURNS BY LABORN BY RNA, SEPARATED BY RNA- MARIDAS.\nSEQU IS MORE ATTRIBIBARD, ENADING, AND ACCUT"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC3576793_00004-chunk-001",
+          "distance": 0.74134,
+          "is_relevant": false,
+          "document_preview": "TABLE: A SUMMARY OF THE PERFORATED OR SELFACATIONS IN ORIGIENTLY INTAIENTS with KILL, ABICE ORGAN RESULTS/DUALS\nUTHR AND MAKE UNDE OUTPAPS ARE RECEIPT FOR A 2 AND BE ARE WITHIN DATE ARE ADUPY PERINED "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC3654277_00006-chunk-001",
+          "distance": 0.768128,
+          "is_relevant": false,
+          "document_preview": "PLEASE\n***\nNOHISTOCHEN\nTHE APPROF\nPETIUM APPLICATIONAL ANALYST, AND THE \"INDERS\" ARE VERY A A SALLAR DIED FOR SHOWN FOR THE STATEMENT APPROV\nPLATIVE: ITS RECARANTARY APPROVED FORLY WITH TEABOADEDSOR S"
+        }
+      ],
+      "notes": "Reduced OCR dependence."
+    },
+    {
+      "query": "Which chunk describes neurotransmitter deficiency and simultaneous EEG or MIRS monitoring?",
+      "relevant_chunk_ids": [
+        "PMC5447509_00002-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC5447509_00002-chunk-001",
+          "distance": 0.547143,
+          "is_relevant": true,
+          "document_preview": "HO\nREUNDTAIMSMITTER DEFICIENCY AND DATERICATING GENERAL CONDITION. S\nE DISPLAYED MANIFESTATIONS DURING MONITORING,\nPLAMS IN DRATES THE SPEABLE BILLA LAB A PARTICIZE PERIUM IN THE PERFORNIA 6 AND BY TO"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC3576793_00004-chunk-001",
+          "distance": 0.775637,
+          "is_relevant": false,
+          "document_preview": "TABLE: A SUMMARY OF THE PERFORATED OR SELFACATIONS IN ORIGIENTLY INTAIENTS with KILL, ABICE ORGAN RESULTS/DUALS\nUTHR AND MAKE UNDE OUTPAPS ARE RECEIPT FOR A 2 AND BE ARE WITHIN DATE ARE ADUPY PERINED "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5432924_00001-chunk-001",
+          "distance": 0.787871,
+          "is_relevant": false,
+          "document_preview": "OF RESEARCED RNA BY THE LATGE SHIPPLIUM OF SEPDENS- BY COMPURING THE ENDE VEGANS OF THE STEPS-SPEC\nING RETURNS BY LABORN BY RNA, SEPARATED BY RNA- MARIDAS.\nSEQU IS MORE ATTRIBIBARD, ENADING, AND ACCUT"
+        }
+      ],
+      "notes": "Natural clinical phrasing."
+    },
+    {
+      "query": "Which chunk contains discussion of exchangeable appropriations, health policy, and research documents?",
+      "relevant_chunk_ids": [
+        "PMC5491943_00004-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC5491943_00004-chunk-001",
+          "distance": 0.557311,
+          "is_relevant": true,
+          "document_preview": "***\nEXCHANGEABLE APPROPRIATIONS FOR TRANSACERS, RETAIMS AND BILLED IN ORIGINALARY ORIGINALLY EXPER\nHEALTH POLIPLIES AREA SEPAR PAPULATIVES & TRANSRES, RETURNS AND BILLED BHD BY RECERARANTARY OFTENED\nD"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC5624106_00000-chunk-001",
+          "distance": 0.669047,
+          "is_relevant": false,
+          "document_preview": "POLICY PAPER AREA:\nHOW DO POLICY AND INSTITUTIONAL SETTINGS SHAPE\nPROFTUNITIES FOR COM\nNEW\nCOUNTURI\nTONI ASHTON', NICOLETE SHERIDAN, ALEXANDRA PECKHAM', A PAUL WILLAMS, TIM KENEALY'\nAND WAITER WHODDIN"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC4027932_00001-chunk-001",
+          "distance": 0.681774,
+          "is_relevant": false,
+          "document_preview": "WITH THE WELFARE OF CHILDREN A STATUTORY PRIORITY, ALONG\nVENTION ON THE RIGHTS OF THE CHILD [5] THAT WAS ALSO\nSIGNED AND MADE LEGAL 1989. DESPILE SUCH LEGISLATION.\nTHE LAMING INQUIRY [6] MADE 108 RECO"
+        }
+      ],
+      "notes": "Cleaner policy-oriented query."
+    },
+    {
+      "query": "Which chunk mentions a task force, experts, and communication across health-related groups?",
+      "relevant_chunk_ids": [
+        "PMC5491943_00004-chunk-002"
+      ],
+      "matched": true,
+      "reciprocal_rank": 0.3333,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC4027932_00001-chunk-002",
+          "distance": 0.583072,
+          "is_relevant": false,
+          "document_preview": "PARALLELED\nCENTRE FOR BRITISH TEACHERS (CIFT) REVIEW OF INTERMA-\nBIONAL INCORATION FOUND THAT:\nMAJORITY OF COUNTRIES\nISBECTIONS (34 OF THE 54 IN THE SAMPLE) HAVE SHOWN\nCOLILABORATIVE\nTABLEDABLE, MAKES"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC5624106_00000-chunk-001",
+          "distance": 0.736636,
+          "is_relevant": false,
+          "document_preview": "POLICY PAPER AREA:\nHOW DO POLICY AND INSTITUTIONAL SETTINGS SHAPE\nPROFTUNITIES FOR COM\nNEW\nCOUNTURI\nTONI ASHTON', NICOLETE SHERIDAN, ALEXANDRA PECKHAM', A PAUL WILLAMS, TIM KENEALY'\nAND WAITER WHODDIN"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5491943_00004-chunk-002",
+          "distance": 0.763348,
+          "is_relevant": true,
+          "document_preview": "NETBOS : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :\nTHE THE TALK FORCE AND THE EXPERT FROM AUTHORD ON THE FOLLOWING ADDITIO"
+        }
+      ],
+      "notes": "Naturalized version of the lower-block query."
+    },
+    {
+      "query": "Which chunk talks about the Bahamas, South Carolina, immature males, and temperature use?",
+      "relevant_chunk_ids": [
+        "PMC5514520_00012-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC5514520_00012-chunk-001",
+          "distance": 0.529895,
+          "is_relevant": true,
+          "document_preview": "BAHAMAS\nREXIMATE AREA EAST OF SOUTH CAROLINA, U.S. HOWEVER\nIMMATURE MALE CONSISTENTLY USED COMPURABLY WAR- BUT MADE A NET MOTHERST\nMER WATERS (GST SD) *C) THAN THE IMUMPERE FEMABLE 1600 IAN FROM THE C"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC5624106_00000-chunk-001",
+          "distance": 0.846635,
+          "is_relevant": false,
+          "document_preview": "POLICY PAPER AREA:\nHOW DO POLICY AND INSTITUTIONAL SETTINGS SHAPE\nPROFTUNITIES FOR COM\nNEW\nCOUNTURI\nTONI ASHTON', NICOLETE SHERIDAN, ALEXANDRA PECKHAM', A PAUL WILLAMS, TIM KENEALY'\nAND WAITER WHODDIN"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC4027932_00001-chunk-001",
+          "distance": 0.869714,
+          "is_relevant": false,
+          "document_preview": "WITH THE WELFARE OF CHILDREN A STATUTORY PRIORITY, ALONG\nVENTION ON THE RIGHTS OF THE CHILD [5] THAT WAS ALSO\nSIGNED AND MADE LEGAL 1989. DESPILE SUCH LEGISLATION.\nTHE LAMING INQUIRY [6] MADE 108 RECO"
+        }
+      ],
+      "notes": "Ecology-themed natural query."
+    },
+    {
+      "query": "Which chunk says shear stress was the dominant factor affecting vessel permeability and stability?",
+      "relevant_chunk_ids": [
+        "PMC5590435_00004-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC5590435_00004-chunk-001",
+          "distance": 0.400589,
+          "is_relevant": true,
+          "document_preview": "CONFIRMED AS ONE OF THE DOMINANT FACTORS AMONG MECHANICA\nFUNCTION AND STABILITY RELATED TO THE PERMEABILITY OF THE VESSEL WALI.WERE EXCEMENT.\nVARIOUS VALUES OF HOW RATE, SHEAR STRESS, TRANSMAI PRESURE"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC5514520_00012-chunk-001",
+          "distance": 0.782186,
+          "is_relevant": false,
+          "document_preview": "BAHAMAS\nREXIMATE AREA EAST OF SOUTH CAROLINA, U.S. HOWEVER\nIMMATURE MALE CONSISTENTLY USED COMPURABLY WAR- BUT MADE A NET MOTHERST\nMER WATERS (GST SD) *C) THAN THE IMUMPERE FEMABLE 1600 IAN FROM THE C"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5447509_00002-chunk-001",
+          "distance": 0.844579,
+          "is_relevant": false,
+          "document_preview": "HO\nREUNDTAIMSMITTER DEFICIENCY AND DATERICATING GENERAL CONDITION. S\nE DISPLAYED MANIFESTATIONS DURING MONITORING,\nPLAMS IN DRATES THE SPEABLE BILLA LAB A PARTICIZE PERIUM IN THE PERFORNIA 6 AND BY TO"
+        }
+      ],
+      "notes": "Naturalized engineering/science query."
+    },
+    {
+      "query": "Which chunk explains anti-cancer monoclonal antibodies, recombinant proteins, and later therapeutic generations?",
+      "relevant_chunk_ids": [
+        "PMC5618295_00004-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC5618295_00004-chunk-001",
+          "distance": 0.406145,
+          "is_relevant": true,
+          "document_preview": "---\n::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n-\nANTI-CANCER\nMANOCINAL ANTIBODY (GREEN FRAME) RETAINS AMTIGEN SPECIFICT\nBENERATION (MONOLONALAN ANTIBODY) AND 2HD GENERATION\nBTHER"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC3654277_00006-chunk-001",
+          "distance": 0.648983,
+          "is_relevant": false,
+          "document_preview": "PLEASE\n***\nNOHISTOCHEN\nTHE APPROF\nPETIUM APPLICATIONAL ANALYST, AND THE \"INDERS\" ARE VERY A A SALLAR DIED FOR SHOWN FOR THE STATEMENT APPROV\nPLATIVE: ITS RECARANTARY APPROVED FORLY WITH TEABOADEDSOR S"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5344221_00010-chunk-001",
+          "distance": 0.717518,
+          "is_relevant": false,
+          "document_preview": "COMBIMATIONS WITH OTHER TRANSGENIC CYTOKIN\nCOLL DMER COMBILATIONS OF TRANSSENG CYTOKINS (HESIDES GM-CSF PLUS IL-4 OR GML-CSF PLUS\nREPROGRAWTING? AS DISCUSSED\nEADY-STATE AND INFLAMMATORY\nCEPTOR, GM-CSF"
+        }
+      ],
+      "notes": "Natural biomedical phrasing."
+    },
+    {
+      "query": "Which chunk is the policy paper on community-based primary health care by Toni Ashton and colleagues?",
+      "relevant_chunk_ids": [
+        "PMC5624106_00000-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC5624106_00000-chunk-001",
+          "distance": 0.43345,
+          "is_relevant": true,
+          "document_preview": "POLICY PAPER AREA:\nHOW DO POLICY AND INSTITUTIONAL SETTINGS SHAPE\nPROFTUNITIES FOR COM\nNEW\nCOUNTURI\nTONI ASHTON', NICOLETE SHERIDAN, ALEXANDRA PECKHAM', A PAUL WILLAMS, TIM KENEALY'\nAND WAITER WHODDIN"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC4027932_00001-chunk-001",
+          "distance": 0.692078,
+          "is_relevant": false,
+          "document_preview": "WITH THE WELFARE OF CHILDREN A STATUTORY PRIORITY, ALONG\nVENTION ON THE RIGHTS OF THE CHILD [5] THAT WAS ALSO\nSIGNED AND MADE LEGAL 1989. DESPILE SUCH LEGISLATION.\nTHE LAMING INQUIRY [6] MADE 108 RECO"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5491943_00004-chunk-002",
+          "distance": 0.709981,
+          "is_relevant": false,
+          "document_preview": "NETBOS : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :\nTHE THE TALK FORCE AND THE EXPERT FROM AUTHORD ON THE FOLLOWING ADDITIO"
+        }
+      ],
+      "notes": "A realistic user query."
+    },
+    {
+      "query": "Which chunk discusses coping, representative samples, and social variables?",
+      "relevant_chunk_ids": [
+        "PMC5678782_00005-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 0.5,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC4027932_00001-chunk-002",
+          "distance": 0.69355,
+          "is_relevant": false,
+          "document_preview": "PARALLELED\nCENTRE FOR BRITISH TEACHERS (CIFT) REVIEW OF INTERMA-\nBIONAL INCORATION FOUND THAT:\nMAJORITY OF COUNTRIES\nISBECTIONS (34 OF THE 54 IN THE SAMPLE) HAVE SHOWN\nCOLILABORATIVE\nTABLEDABLE, MAKES"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC5678782_00005-chunk-001",
+          "distance": 0.693669,
+          "is_relevant": true,
+          "document_preview": "WHNNNNNNNNNNN\nMARIPRATESITY -22pc/1M -X -Bf -B\nCHANGE : 4 - 0 -6-05-01-\nTABLE COPING S9FATE INTO ACCEPT, DECIOS MAY ABOVE, JEBLES, IT WOULD BE INTERESTING TO RECEIPTED STUDY WITH\nADTUITIES, AVOLDING T"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5491943_00004-chunk-001",
+          "distance": 0.762701,
+          "is_relevant": false,
+          "document_preview": "***\nEXCHANGEABLE APPROPRIATIONS FOR TRANSACERS, RETAIMS AND BILLED IN ORIGINALARY ORIGINALLY EXPER\nHEALTH POLIPLIES AREA SEPAR PAPULATIVES & TRANSRES, RETURNS AND BILLED BHD BY RECERARANTARY OFTENED\nD"
+        }
+      ],
+      "notes": "Cleaner behavioral-study wording."
+    }
+  ]
+}

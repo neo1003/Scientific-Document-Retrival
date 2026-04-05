@@ -1,0 +1,90 @@
+<svg width="720" height="1440" viewBox="0 0 720 1440" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="42" y1="50" x2="678" y2="1394" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2EDE3"/>
+      <stop offset="1" stop-color="#E2D4C0"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF9F1" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F6EFE5" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1F6D62"/>
+      <stop offset="1" stop-color="#143E39"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D36E43"/>
+      <stop offset="1" stop-color="#8E4527"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="1440" fill="url(#bg)"/>
+  <circle cx="640" cy="108" r="122" fill="#D36E43" fill-opacity="0.14"/>
+  <circle cx="86" cy="1292" r="130" fill="#1F6D62" fill-opacity="0.12"/>
+
+  <rect x="24" y="24" width="672" height="1392" rx="34" fill="url(#panel)" stroke="#37291B" stroke-opacity="0.08"/>
+  <rect x="52" y="52" width="50" height="50" rx="17" fill="url(#accent)"/>
+  <text x="77" y="83" text-anchor="middle" fill="#FFF9F1" font-size="24" font-family="Georgia" font-weight="700">H</text>
+  <text x="120" y="74" fill="#1F6D62" font-size="11" font-family="Trebuchet MS" letter-spacing="2.3">SCIENTIFIC RAG</text>
+  <text x="120" y="104" fill="#24170E" font-size="26" font-family="Georgia" font-weight="700">Helio Retrieval</text>
+
+  <rect x="52" y="138" width="616" height="176" rx="26" fill="#FFFDF8" stroke="#37291B" stroke-opacity="0.08"/>
+  <text x="78" y="170" fill="#1F6D62" font-size="11" font-family="Trebuchet MS" letter-spacing="2.5">END-TO-END SCIENTIFIC RETRIEVAL</text>
+  <text x="78" y="212" fill="#24170E" font-size="28" font-family="Georgia" font-weight="700">Scientific retrieval on mobile</text>
+  <text x="78" y="245" fill="#6E5A4A" font-size="16" font-family="Trebuchet MS">Review methods, findings, and evidence trails from indexed scientific pages.</text>
+  <rect x="78" y="266" width="152" height="32" rx="16" fill="#FFFDF8" stroke="#37291B" stroke-opacity="0.08"/>
+  <text x="98" y="287" fill="#6E5A4A" font-size="13" font-family="Trebuchet MS">Corpus</text>
+  <text x="146" y="287" fill="#24170E" font-size="14" font-family="Georgia" font-weight="700">OCR + Chunks</text>
+  <rect x="242" y="266" width="124" height="32" rx="16" fill="#FFFDF8" stroke="#37291B" stroke-opacity="0.08"/>
+  <text x="260" y="287" fill="#6E5A4A" font-size="13" font-family="Trebuchet MS">Search</text>
+  <text x="308" y="287" fill="#24170E" font-size="14" font-family="Georgia" font-weight="700">Hybrid</text>
+  <rect x="378" y="266" width="162" height="32" rx="16" fill="#FFFDF8" stroke="#37291B" stroke-opacity="0.08"/>
+  <text x="396" y="287" fill="#6E5A4A" font-size="13" font-family="Trebuchet MS">Output</text>
+  <text x="452" y="287" fill="#24170E" font-size="14" font-family="Georgia" font-weight="700">Cited Answers</text>
+
+  <rect x="52" y="336" width="616" height="138" rx="24" fill="#FFFDF8" stroke="#37291B" stroke-opacity="0.08"/>
+  <text x="78" y="368" fill="#24170E" font-size="20" font-family="Georgia" font-weight="700">Retrieval Controls</text>
+  <rect x="78" y="392" width="120" height="42" rx="15" fill="#FFFFFF" fill-opacity="0.92" stroke="#37291B" stroke-opacity="0.1"/>
+  <text x="95" y="418" fill="#24170E" font-size="15" font-family="Trebuchet MS">Top K 4</text>
+  <rect x="212" y="392" width="180" height="42" rx="15" fill="#FFFFFF" fill-opacity="0.92" stroke="#37291B" stroke-opacity="0.1"/>
+  <text x="229" y="418" fill="#24170E" font-size="15" font-family="Trebuchet MS">Vector 12</text>
+  <rect x="406" y="392" width="236" height="42" rx="15" fill="#FFFFFF" fill-opacity="0.92" stroke="#37291B" stroke-opacity="0.1"/>
+  <text x="423" y="418" fill="#24170E" font-size="15" font-family="Trebuchet MS">Keyword 12</text>
+
+  <text x="52" y="520" fill="#1F6D62" font-size="11" font-family="Trebuchet MS" letter-spacing="2.5">SCIENTIFIC QA</text>
+  <text x="52" y="558" fill="#24170E" font-size="28" font-family="Georgia" font-weight="700">Literature Assistant</text>
+
+  <rect x="52" y="590" width="42" height="42" rx="14" fill="url(#warm)"/>
+  <text x="73" y="616" text-anchor="middle" fill="#FFF9F1" font-size="14" font-family="Trebuchet MS" font-weight="700">AI</text>
+  <rect x="106" y="590" width="516" height="74" rx="18" fill="#F6EFE5"/>
+  <text x="128" y="620" fill="#24170E" font-size="16" font-family="Trebuchet MS">Ask about methods, cohorts, biomarkers, or findings</text>
+  <text x="128" y="643" fill="#24170E" font-size="16" font-family="Trebuchet MS">and I’ll answer from reranked cited evidence.</text>
+
+  <rect x="202" y="694" width="372" height="82" rx="18" fill="url(#accent)"/>
+  <text x="224" y="725" fill="#FFF9F1" font-size="15" font-family="Trebuchet MS">What limitations are reported for tracking</text>
+  <text x="224" y="748" fill="#FFF9F1" font-size="15" font-family="Trebuchet MS">rapid renal function changes?</text>
+  <rect x="586" y="714" width="42" height="42" rx="14" fill="url(#warm)"/>
+  <text x="607" y="740" text-anchor="middle" fill="#FFF9F1" font-size="12" font-family="Trebuchet MS" font-weight="700">YOU</text>
+
+  <rect x="52" y="804" width="42" height="42" rx="14" fill="url(#warm)"/>
+  <text x="73" y="830" text-anchor="middle" fill="#FFF9F1" font-size="14" font-family="Trebuchet MS" font-weight="700">AI</text>
+  <rect x="106" y="804" width="532" height="128" rx="18" fill="#F6EFE5"/>
+  <text x="128" y="836" fill="#24170E" font-size="15" font-family="Trebuchet MS">The retrieved passages say rapid renal function changes are</text>
+  <text x="128" y="859" fill="#24170E" font-size="15" font-family="Trebuchet MS">difficult to capture accurately with static eGFR equations,</text>
+  <text x="128" y="882" fill="#24170E" font-size="15" font-family="Trebuchet MS">especially in critically ill patients with AKI.</text>
+  <text x="128" y="905" fill="#24170E" font-size="15" font-family="Trebuchet MS">[PMC3576793-leaf-002]</text>
+
+  <text x="52" y="982" fill="#1F6D62" font-size="11" font-family="Trebuchet MS" letter-spacing="2.5">EVIDENCE PANEL</text>
+  <text x="52" y="1020" fill="#24170E" font-size="28" font-family="Georgia" font-weight="700">Retrieved Passages</text>
+  <rect x="52" y="1048" width="616" height="152" rx="24" fill="#FFFDF8" stroke="#37291B" stroke-opacity="0.08"/>
+  <text x="78" y="1080" fill="#1F6D62" font-size="14" font-family="Trebuchet MS">PMC3576793-leaf-002</text>
+  <text x="78" y="1104" fill="#1F6D62" font-size="13" font-family="Trebuchet MS">hybrid 0.0152 • rerank 96 • Discussion</text>
+  <text x="78" y="1140" fill="#6E5A4A" font-size="15" font-family="Trebuchet MS">The page compares eGFR equations and the challenge of</text>
+  <text x="78" y="1163" fill="#6E5A4A" font-size="15" font-family="Trebuchet MS">tracking rapidly changing renal function in AKI.</text>
+
+  <text x="52" y="1248" fill="#6E5A4A" font-size="14" font-family="Trebuchet MS">Research question</text>
+  <rect x="52" y="1266" width="616" height="94" rx="22" fill="#FFFFFF" fill-opacity="0.92" stroke="#37291B" stroke-opacity="0.1"/>
+  <text x="78" y="1318" fill="#6E5A4A" font-size="15" font-family="Trebuchet MS">Ask about study design, biomarkers, limitations, or findings...</text>
+  <rect x="482" y="1316" width="186" height="44" rx="22" fill="url(#accent)"/>
+  <text x="575" y="1343" text-anchor="middle" fill="#FFF9F1" font-size="15" font-family="Trebuchet MS" font-weight="700">Run Retrieval</text>
+</svg>

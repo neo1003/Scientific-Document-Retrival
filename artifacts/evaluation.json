@@ -1,0 +1,22 @@
+{
+  "zip_path": "examples.zip",
+  "documents_processed": 20,
+  "chunks_created": 24,
+  "average_chunks_per_document": 1.2,
+  "median_chunks_per_document": 1.0,
+  "chunk_type_distribution": {
+    "paragraph_or_section": 5,
+    "table_or_dense_block": 2,
+    "narrow_column": 15,
+    "header_or_footer": 2
+  },
+  "average_chunk_area_ratio": 0.5835,
+  "median_chunk_area_ratio": 0.6699,
+  "ocr_non_empty_chunks": 24,
+  "ocr_coverage_ratio": 1.0,
+  "average_characters_per_chunk": 1512.71,
+  "median_characters_per_chunk": 1488.5,
+  "retrieval_latency_ms_avg": 4.219,
+  "retrieval_latency_ms_p95": 3.45,
+  "storage_path": "artifacts\\chroma"
+}

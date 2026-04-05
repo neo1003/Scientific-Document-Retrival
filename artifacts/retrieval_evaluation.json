@@ -1,0 +1,76 @@
+{
+  "labels_path": "docs\\retrieval_labels_template.jsonl",
+  "collection_name": "document_chunks_text",
+  "queries_evaluated": 2,
+  "top_k": 3,
+  "hit_at_1": 0.5,
+  "hit_at_3": 0.5,
+  "mrr": 0.5,
+  "average_query_latency_ms": 20.295,
+  "per_query": [
+    {
+      "query": "Which chunk contains the heading or description for the first document block?",
+      "relevant_chunk_ids": [
+        "PMC3576793_00004-chunk-001"
+      ],
+      "matched": true,
+      "reciprocal_rank": 1.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC3576793_00004-chunk-001",
+          "distance": 0.788865,
+          "is_relevant": true,
+          "document_preview": "TABLE: A SUMMARY OF THE PERFORATED OR SELFACATIONS IN ORIGIENTLY INTAIENTS with KILL, ABICE ORGAN RESULTS/DUALS\nUTHR AND MAKE UNDE OUTPAPS ARE RECEIPT FOR A 2 AND BE ARE WITHIN DATE ARE ADUPY PERINED "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC4760359_00006-chunk-001",
+          "distance": 0.806495,
+          "is_relevant": false,
+          "document_preview": "O\nDESCRIPTIONS\n*************************************** *********************\nCHANGES INCOME ORDER FOR ANWARDRY BY APPROVALS, AND FOR AN OFFER AND FOR AN OFFER FOR AWAY.\n*******************************"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC5491943_00004-chunk-001",
+          "distance": 0.808915,
+          "is_relevant": false,
+          "document_preview": "***\nEXCHANGEABLE APPROPRIATIONS FOR TRANSACERS, RETAIMS AND BILLED IN ORIGINALARY ORIGINALLY EXPER\nHEALTH POLIPLIES AREA SEPAR PAPULATIVES & TRANSRES, RETURNS AND BILLED BHD BY RECERARANTARY OFTENED\nD"
+        }
+      ],
+      "notes": "Replace with a natural-language query that a user would actually ask."
+    },
+    {
+      "query": "Which chunk discusses the lower section of the first page image?",
+      "relevant_chunk_ids": [
+        "PMC3576793_00004-chunk-002"
+      ],
+      "matched": false,
+      "reciprocal_rank": 0.0,
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "PMC3576793_00004-chunk-001",
+          "distance": 0.858288,
+          "is_relevant": false,
+          "document_preview": "TABLE: A SUMMARY OF THE PERFORATED OR SELFACATIONS IN ORIGIENTLY INTAIENTS with KILL, ABICE ORGAN RESULTS/DUALS\nUTHR AND MAKE UNDE OUTPAPS ARE RECEIPT FOR A 2 AND BE ARE WITHIN DATE ARE ADUPY PERINED "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "PMC3863500_00003-chunk-002",
+          "distance": 0.888174,
+          "is_relevant": false,
+          "document_preview": "PLEASE RETURNS BASED ON THE SCIPALS (7), AND APPLICABLES with AUTHOR IS AFFARE OF SUBPAREDIC THERMED FOR AN CATE FORN\nMENTSELVES; IN THE SETTING OF A GLMONHUMERAL\nNO ADJUST, ABBART, EXCELS, INCL, ORDI"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "PMC4954804_00001-chunk-001",
+          "distance": 0.891314,
+          "is_relevant": false,
+          "document_preview": "IN 2001, Yamada et al, USING COMPUTED (NNORUPAL), (2) MEASURE AVEABLE BEEN INCLUSES CHUGE AND PROT\nCLATED WITH NON MARIBULA PNINE ANDES AND CASH III. HAVE SELECTED PURCHASED BHDUNG PRODUCTS\nRECENTLY, "
+        }
+      ],
+      "notes": "Use one or more relevant chunk ids if multiple chunks should answer the query."
+    }
+  ]
+}
